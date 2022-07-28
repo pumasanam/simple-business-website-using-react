@@ -1,0 +1,47 @@
+.contact{
+    width: 85%;
+    margin: 25px auto;
+    text-align: center;
+    padding: 1.6rem 0px 1rem 0px;
+    border: 1px solid #2c3e50;
+}
+
+.contact form input{
+    width: 100%;
+    background-color: lightgray;
+    padding: 15px 5px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.contact form button{
+    outline: none;
+    border: none;
+    background-color: darkgreen;
+    color: white;
+    padding: 12px 30px;
+    border-radius: 50px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.contact form button:hover{
+    background-color: green;
+}
+
+.contact form{
+    padding: 1rem;
+}
+
+@media screen and (max-width:500px){
+    .contact{
+        width: 90%;
+    }
+
+    .contact form{
+        padding: 0.6rem;
+    }
+}
